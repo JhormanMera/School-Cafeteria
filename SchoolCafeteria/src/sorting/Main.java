@@ -9,8 +9,7 @@ import java.text.DecimalFormat;
 import java.util.Arrays;
 
 public class Main {
-
-	private static Double [] array;
+	private static double [] array;
 	private  static int setAmount;
 	private static BufferedReader br;
 	private static BufferedWriter bw;
@@ -43,7 +42,7 @@ public class Main {
 		while (i<setAmount) {
 			String ages=br.readLine();
 			String[] arrayAges=ages.split(" ");
-			array=new Double[arrayAges.length];
+			array=new double[arrayAges.length];
 			for(int j=0; j<arrayAges.length; j++) {
 				array[j]=Double.parseDouble(arrayAges[j]);				
 			}
